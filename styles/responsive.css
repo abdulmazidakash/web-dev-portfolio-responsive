@@ -1,0 +1,49 @@
+@media screen and (max-width: 576px) {
+    nav,
+    .banner
+    {
+        flex-direction: column;
+        margin: 20px;
+    }
+    .banner-profile-pic{
+        width: 100%;
+    }
+    nav > ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+
+    .header{
+        background-image: none;
+    }
+
+    /* about section responsive */
+    .about-items{
+        flex-direction: column;
+    }
+    .about{
+        padding: 20px;
+    }
+
+    /* skills container responsive  */
+    .skills-container{
+        flex-direction: column;
+    }
+    /* resume container responsive  */
+    .resume-container{
+        flex-direction: column;
+    }
+
+    /* footer section responsive  */
+    footer{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+}
